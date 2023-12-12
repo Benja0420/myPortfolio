@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Menu from "../components/Menu.jsx"
 
 function Navbar() {
     return (
@@ -15,8 +16,12 @@ function Navbar() {
             "
                 src="src/assets/react.svg"
                 alt="logo react" />
+            {/* menu */}
+            <Menu />
+            {/* menu */}
             <ul className="
-            flex
+            hidden
+            md:flex
             text-cyan-500
             gap-10
             m-4
