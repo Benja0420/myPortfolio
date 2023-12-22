@@ -4,25 +4,23 @@ import Menu from "../components/Menu.jsx"
 function Navbar() {
     return (
         <div className="
-    bg-gray-800
+    bg-[#4D194D]
     h-[10vh]
     flex
     items-center
     justify-between
     ">
             <img className="
-            h-[5vh]
+            h-12
             m-4
             "
                 src="src/assets/react.svg"
                 alt="logo react" />
-            {/* menu */}
             <Menu />
-            {/* menu */}
             <ul className="
             hidden
             md:flex
-            text-cyan-500
+            text-[#006466]
             gap-10
             m-4
             ">

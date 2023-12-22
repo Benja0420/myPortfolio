@@ -3,14 +3,14 @@ import {
 } from "react"
 import { Link } from "react-router-dom"
 
-function useMenu() {
+function Menu() {
     const [show, setShow] = useState(false);
     return (
         <>
             <img
                 onClick={() => setShow(!show)}
                 className="
-            h-[8vh]
+            h-12
             m-4
             md:hidden
             "
@@ -18,15 +18,12 @@ function useMenu() {
                 alt="menu"
             />
             {show && <div className="
+            fixed
+            w-full
             flex
-            flex-col 
-            z-20 
-            w-full 
-            absolute
-            bg-gray-800
-            items-center
+            align-center
             justify-center
-            text-cyan-500
+            bg-[#4D194D]
             p-4
             ">
                 <div className="
@@ -35,9 +32,9 @@ function useMenu() {
                 " >
                     <img onClick={() => setShow(!show)}
                         className="
-                    h-[8vh]
+                    h-12
                     z-40
-                    absolute
+                    fixed
                     right-0
                     m-4
                     "
@@ -47,6 +44,7 @@ function useMenu() {
                 flex
                 flex-col
                 gap-10
+                text-[#006466]
                 ">
                         <Link to={"/"}>Home</Link>
                         <Link to={"/projects"}>Projets</Link>
@@ -59,4 +57,4 @@ function useMenu() {
     );
 }
 
-export default useMenu
+export default Menu
