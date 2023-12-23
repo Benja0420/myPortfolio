@@ -4,7 +4,7 @@ import Menu from "../components/Menu.jsx"
 function Navbar() {
     return (
         <div className="
-    bg-[#4D194D]
+    bg-secondary-500
     h-[10vh]
     flex
     items-center
@@ -20,7 +20,7 @@ function Navbar() {
             <ul className="
             hidden
             md:flex
-            text-[#006466]
+            text-primary-100
             gap-10
             m-4
             ">

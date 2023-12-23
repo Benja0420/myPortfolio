@@ -2,27 +2,42 @@ function index() {
     return (
         <div className="
         h-[90vh]
-        bg-cyan-500
+        bg-primary-500
         "
 
         >
             <div className="
             flex
-            flex-col
+            gap-10
             items-center
             justify-center
+            p-10
             ">
-                <h1 className="
-                text-5xl
+                <article className="
+            flex
+            flex-col
+            gap-4
+            ">
+                    <h1 className="
+                text-4xl
                 text-white
-                mt-12
-                ">Hello World!</h1>
-                <p className="
-                text-2xl
+                ">Benjamín Sepúlveda</h1>
+                    <p className="
                 text-white
-                ">This is my first Tailwind CSS project</p>
+                ">Desarrollador Web FullStack</p>
+                <div 
+                className="
+                flex
+                gap-2
+                "><img src="src/assets/react.svg" alt="" /><img src="src/assets/react.svg" alt="" /><img src="src/assets/react.svg" alt="" /></div>
+                </article>
+                <img 
+                className="
+                h-52
+                "
+                src="src/assets/react.svg" 
+                alt="Benjamín Sepúlveda" />
             </div>
-
         </div>
     )
 }
