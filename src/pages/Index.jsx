@@ -25,18 +25,42 @@ function index() {
                     <p className="
                 text-white
                 ">Desarrollador Web FullStack</p>
-                <div 
-                className="
+                    <div
+                        className="
                 flex
                 gap-2
-                "><img src="src/assets/react.svg" alt="" /><img src="src/assets/react.svg" alt="" /><img src="src/assets/react.svg" alt="" /></div>
+                ">
+                        <img className="
+                        cursor-pointer
+                        " src="src/assets/react.svg" alt="Linkedin" />
+                        <img className="
+                        cursor-pointer
+                        " src="src/assets/react.svg" alt="github" />
+                        <div
+                        className="
+                        align-center
+                        justify-center
+                        px-2
+                        flex
+                        bg-primary-200
+                        rounded-md
+                        gap-2
+                        cursor-pointer
+                        py-1
+                        "
+                        >
+                        <p>download CV</p>
+                        <img
+                        src="src/assets/react.svg" alt="CV" />
+                        </div>
+                    </div>
                 </article>
-                <img 
-                className="
+                <img
+                    className="
                 h-52
                 "
-                src="src/assets/react.svg" 
-                alt="Benjamín Sepúlveda" />
+                    src="src/assets/react.svg"
+                    alt="Benjamín Sepúlveda" />
             </div>
         </div>
     )

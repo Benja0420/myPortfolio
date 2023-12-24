@@ -1,6 +1,11 @@
 function Footer() {
     return (
-        <div>Este es el footer</div>
+        <div
+        className="
+        bg-secondary-400
+        h-[15vh]
+        "
+        >Este es el footer</div>
     )
 }
 
